@@ -1,4 +1,3 @@
-# Practicetejweb
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -213,5 +212,21 @@
             document.getElementById('register-section').style.display = 'none';
             renderProducts();
         }
-git git 
 
+        // Show Login form
+        function showLogin() {
+            document.getElementById('login-section').style.display = 'block';
+            document.getElementById('register-section').style.display = 'none';
+        }
+
+        // Show Register form
+        function showRegister() {
+            document.getElementById('login-section').style.display = 'none';
+            document.getElementById('register-section').style.display = 'block';
+        }
+
+        // Initial render of products
+        renderProducts();
+    </script>
+</body>
+</html>
