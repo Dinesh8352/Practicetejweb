@@ -213,5 +213,5 @@
             document.getElementById('register-section').style.display = 'none';
             renderProducts();
         }
-
+git git 
 
